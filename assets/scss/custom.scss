@@ -1,0 +1,23 @@
+.auth-form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+  .form-wrapper {
+    width: 400px;
+    height: 300px;
+
+    .password-wrap{
+      input{
+        padding-right: 50px;
+      }
+      a{
+        position: relative;
+        bottom: 30px;
+        left: 85%;
+      }
+    }
+  }
+}
+

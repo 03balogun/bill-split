@@ -1,0 +1,26 @@
+{
+  "name": "bill-splitting-app",
+  "version": "1.0.0",
+  "description": "Bill splitting app",
+  "author": "Balogun Wahab",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.5",
+    "@nuxtjs/axios": "^5.9.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "bootstrap": "^4.4.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^8.0.0"
+  }
+}
